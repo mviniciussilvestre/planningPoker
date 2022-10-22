@@ -1,0 +1,123 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+.navbar-default{
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+}
+
+.navbar-default .navbar-brand {
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #000;
+}
+
+.planningpoker-apresentacao{
+    color: #000;
+    background: linear-gradient(#6699ff, #FEFEFE);
+    padding-bottom: 15px;
+}
+.sub-apresentacao{
+    margin-bottom: 20px;
+}
+
+.titulo-videos{
+    color: #000;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.btn-primary{
+    margin-top: 5px;
+}
+
+.rapido{
+    margin: 50px auto;
+    padding: 0px 20px 20px;
+    width: 30%;
+    border: 1px solid rgb(160, 159, 159);
+    border-radius: 2px;
+    background-color: #a5d3fc;
+}
+
+.titulo-rapido, .sub-rapido, .titulo-cadastro, .sub-cadastro{
+    font-weight: bold;
+    text-align: center;
+}
+
+.cadastro{
+    margin: 50px auto;
+    padding: 0px 20px 20px;
+    width: 30%;
+    border: 1px solid rgb(160, 159, 159);
+    border-radius: 2px;
+    background-color: #a5d3fc;
+}
+
+.btn-rapido, .btn-cadastro{
+    text-align: center;
+}
+
+.sala-criada{
+    margin: 50px auto;
+    padding: 20px;
+    line-height: 50px;
+    width: 50%;
+    text-align: center;
+    border: 1px solid rgb(160, 159, 159);
+    border-radius: 2px;
+}
+
+.link-sala-criada{
+    padding: 10px;
+    border: 1px solid rgb(160, 159, 159);
+}
+
+.index-rodape {
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 20px;
+    width: 100%;
+    background-color: #6699ff;
+}
+
+.rapido-rodape {
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    padding: 20px;
+    background-color: #6699ff;
+    position: absolute;
+    bottom: 0;
+}
+
+
+@media (min-width: 1280px) {
+    .planningpoker-apresentacao{
+        width: 100%;
+        padding-left: 50px;
+    } 
+
+}

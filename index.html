@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8"> <!--Conjunto de caracteres-->
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"> <!--Importando CSS-->
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Configurando o tamanho da tela de acordo com o device-->
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"> <!--Arquivo CSS-->
+    </head>
+
+    <body>
+
+        <header>
+            <!--Menu-->
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                        data-target="#collapse-navbar" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <a class="navbar-brand" href="#">Planning Poker</a>
+                    </div>
+                    
+                    <div class="collapse navbar-collapse" id="collapse-navbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="jogoRapido.html">Jogo rápido</a></li>
+                            <li><a href="cadastro.html">Cadastre-se</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+
+        <div class="container planningpoker-apresentacao">
+            <div class="planningpoker-banner">
+                <h1>Planeje o seu projeto de forma ágil!!!</h1>
+                <h3 class="sub-apresentacao">Não perca tempo e crie as suas estimativas!</h3>
+                <a href="jogoRapido.html" class="btn btn-primary btn-lg" role="button" aria-pressed="true">Jogo rápido</a>
+                <a href="cadastro.html" class="btn btn-primary btn-lg" role="button" aria-pressed="true">Cadastre-se</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="container">
+
+                <h2 class="titulo-videos">Aprenda a metodologia</h2>
+
+                <section id="video1" class="col-sm-6">
+                    <div class="embed-responsive embed-responsive-16by9"> <!--Tornando o vídeo responsivo-->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/uCaKGz1kDv8" title="YouTube video player" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+                    </div>
+                </section>
+
+                <section id="video2" class="col-sm-6">
+                    <div class="embed-responsive embed-responsive-16by9"> <!--Tornando o vídeo responsivo-->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/p387JzsOERY" title="YouTube video player" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <footer class="index-rodape">
+            <p class="copyright">&copy; Copyright Planning Poker - 2022</p>
+        </footer>
+
+        <script src="js/jquery.js"></script> <!--Importando Jquery-->
+        <script src="bootstrap/js/bootstrap.min.js"></script> <!--Importando Javascript-->
+
+    </body>
+</html>
